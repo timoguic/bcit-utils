@@ -24,14 +24,6 @@ PROGRAMS = {
 }
 
 
-def get_program_courses(program_name):
-    """
-    Makes a request to BCIT website for the given program name.
-    Returns the requests Response object.
-    Raises a RuntimeError if the url is not available in the PROGRAMS dictionary.
-    """
-
-
 def extract_course_links(html_data):
     """
     Takes HTML data (preferrably bytes) and returns a dictionary.
