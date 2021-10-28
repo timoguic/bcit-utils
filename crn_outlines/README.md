@@ -4,3 +4,5 @@
 * The script takes an argument: the name of the program (currently only `CIT` or `CST`).
 * The script takes another argument: the term (example: `202110`, `201930`, etc)
 * Example: `python get_crn_outlines.py CIT 201930`
+
+*Requires a reasonably recent version of Python3. Python 3.7 should be fine, for example.*
